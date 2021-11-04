@@ -1,0 +1,15 @@
+stages:
+  - deploy
+deploy_production:
+  stage: deploy
+  script:
+    - rsync -av * /var/www/html/jtsu.uz/ --no-perms --no-owner --no-group --omit-dir-times
+    - cd /var/www/html/jtsu.uz/
+    - YII_ENV=prod php ./init --env=Production --overwrite=All
+    - composer update
+    - YII_ENV=prod php ./yii migrate/up --interactive=0
+  environment:
+    name: production
+    url: https://jtsu.uz/
+  only:
+    - master

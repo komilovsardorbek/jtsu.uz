@@ -1,0 +1,134 @@
+.had_menu {
+    left: -300% !important;
+    width: 900% !important;
+    box-shadow: 6px 7px 18px #8888
+}
+
+.title1 {
+    color: #77a83b;
+    margin: 0 15px;
+    padding: 10px 0;
+    border-bottom: 1px solid #ffd925;
+}
+
+.menu-col li {
+    padding: 5px 0;
+}
+.toast {
+    padding: 20px;
+    background-color: #0088CC;
+    box-shadow: 0 0 10px #202020;
+    position: fixed;
+    z-index: 99999999999999999;
+    bottom: 10px;
+    right: 10px !important;
+    width: 400px;
+    height: 320px;
+
+}
+#sub-top1{
+    display: none;
+}
+.sub-top1 li a{
+    border-bottom: 1px solid #c4c4c4;
+    word-break: break-all;
+    font-size: 11px;
+}
+.toast-body {
+    text-align: center;
+    padding: 40px;
+}
+
+.icons_telegram {
+    font-size: 70px;
+    color: #fff;
+}
+
+.text-primary {
+    font-size: 20px;
+}
+
+.text-muted {
+    font-size: 15px;
+}
+
+.mega-menu__item {
+    position: absolute !important;
+    top: 65%;
+    left: 2%;
+    z-index: 9;
+
+
+    transform: scaleZ(0) translateY(15px);
+    opacity: 0;
+
+    transition: 0.4s;
+
+    background-color: #fff;
+    border-top: 2px solid #ffd925;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.mega-menu__inner {
+    padding: 20px 10px;
+}
+
+.mega-menu__wrap:hover > .mega-menu__item {
+    transform: scaleZ(1) translateY(5px);
+    opacity: 1;
+}
+
+.mega-menu__item--big {
+    right: 0;
+}
+
+.mega-menu__inner:hover {
+    background-color: #9570ee;
+    color: #fff;
+    transition: 0.6ms;
+}
+
+.sub_menu {
+    background-color: var(--main-border-color);
+}
+
+.responsive_mega-menu1 {
+    display: none !important;
+}
+
+.responsive_mega-menu {
+    display: block !important;
+}
+
+#responsive_mega-menu1 {
+    display: none !important;
+}
+
+@media (max-width: 991px) {
+    .had_menu {
+        width: auto !important;
+        left: auto !important;
+    }
+
+    #responsive_mega-menu {
+        display: none !important;
+    }
+
+    #responsive_mega-menu1 {
+        display: block !important;
+    }
+
+    .azaners {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+
+    }
+
+    .bottom_fixed {
+        position: fixed;
+        bottom: 0;
+        padding: 20px 0;
+        border: none !important;
+    }
+}

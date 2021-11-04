@@ -1,0 +1,18 @@
+.count-particles{
+    background: transparent;
+    position:absolute;
+    top: 170px;
+    left: 0;
+    width: 100%;
+}
+.bgimages2{
+    display:none
+}
+@media (max-width:1200px) {
+    .bgimages1{
+       display:none;
+    }
+    .bgimages2{
+        display:block
+    }
+}

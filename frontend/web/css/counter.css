@@ -1,0 +1,179 @@
+.counter {
+    width: auto;
+    height: 48px;
+}
+
+.counter-inner {
+    font-size: 3rem;
+    color: #ffc700;
+    letter-spacing: -2px;
+    font-weight: 700;
+    padding-bottom: 25px;
+    padding-top: 35px;
+}
+
+.counter-top {
+    font-size: 16px;
+    color: #ffc700;
+    font-weight: bold;
+}
+
+.btn span {
+    color: #aaa;
+    font-size: 28px;
+    line-height: 45px;
+}
+
+.btn.click span:before {
+    content: '\f00d';
+}
+
+.sidebar {
+    width: 250px;
+
+}
+
+.sidebar.show {
+    left: 0px;
+}
+
+.sidebar .text {
+    color: #606989;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 65px;
+    letter-spacing: 1px;
+}
+#sub-top{
+    display: none;
+    background-color: var(--main-border-color);
+}
+.sub-top li{
+    border: 0;
+    position: relative;
+}
+.icons_mega{
+    position: absolute;
+    right: 20px;
+    font-size: 15px;
+    color: #FFAE0D;
+    font-weight: 200;
+}
+.icons_mega1{
+    position: absolute;
+    right: 20px;
+    top: 7px;
+    font-size: 15px;
+    display: none;
+    color: #FFAE0D;
+}
+.rotate1{
+    display: block !important;
+}
+.rotate{
+    display: none !important;
+}
+nav ul {
+
+    height: 100%;
+    width: 100%;
+    list-style: none;
+}
+
+nav ul li {
+    line-height: 60px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+nav ul li:last-child {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+nav ul li a {
+    position: relative;
+    color: #aaa;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    display: block;
+    width: 100%;
+    border-left: 3px solid transparent;
+}
+
+/* nav ul li.active a{
+  color: #ffc107;
+  background: #999;
+  border-left-color: #ffc107;
+} */
+/* nav ul li a:hover{
+  background: #5350ff;
+} */
+nav ul ul {
+    position: static;
+    display: none;
+}
+
+nav ul .feat-show.show {
+    display: block;
+}
+
+nav ul .serv-show.show1 {
+    display: block;
+}
+
+nav ul ul li {
+    line-height: 42px;
+    border-top: none;
+}
+
+nav ul ul li a {
+    font-size: 17px;
+    color: #e6e6e6;
+    padding-left: 20px;
+}
+
+nav ul li.active ul li a {
+    color: #5350ff;
+    border-left-color: transparent;
+}
+
+/* nav ul ul li a:hover{
+  color: #ffc107!important;
+  background: #fff!important;
+} */
+nav ul li a span {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 22px;
+    transition: transform 0.4s;
+}
+
+nav ul li a span.rotate {
+    transform: translateY(-50%) rotate(-180deg);
+}
+
+/* .content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: yellow;
+  z-index: -1;
+  text-align: center;
+} */
+.content .header {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.content p {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.down_drop1 {
+    margin-left: 30px;
+    font-size: 13px;
+}

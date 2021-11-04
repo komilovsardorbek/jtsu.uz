@@ -1,0 +1,130 @@
+#toast {
+    display: none;
+}
+
+.button_inner {
+    margin: 0;
+    position: absolute;
+    -webkit-top: 73%;
+    -moz-top: 73%;
+    -o-top: 73%;
+    -ms-top: 73%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: #fff;
+    outline: none;
+    border: none;
+    padding: 15px 25px;
+    font-size: 20px;
+    color: #0088cc;
+    border-radius: 35px;
+    box-shadow: 5px 1px 30px #202020;
+}
+
+.button_inner:hover {
+    color: #0088cc !important;
+    background-color: #fff !important;
+    box-shadow: 5px 10px 18px #888888 !important;
+}
+
+.telegram_icons1 {
+    margin-top: 45px;
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+}
+
+
+/* sitebar */
+.accordion .card-header:after {
+    font-family: 'FontAwesome';
+    content: "\f068";
+    float: right;
+}
+
+.accordion .card-header.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\f067";
+}
+
+.card-header {
+    border: none;
+    background: none;
+}
+
+.card {
+    border: none;
+    cursor: pointer;
+}
+
+.card-title {
+    cursor: pointer;
+}
+
+.card-header-empty {
+    padding: .75rem 1.25rem;
+    cursor: pointer;
+}
+
+.card_header {
+    padding: .75rem 1.25rem;
+    color: #33394C;
+    cursor: pointer;
+}
+
+.list_sitebar {
+    padding: 15px;
+    cursor: pointer;
+}
+
+.list_sitebar li {
+    font-size: 14px;
+    white-space: nowrap;
+    padding-bottom: 7px;
+    color: black;
+    cursor: pointer;
+}
+
+.gym_team_section {
+    display: flex;
+}
+
+.padding_top {
+    padding-top: 10px;
+}
+
+.color-inner {
+    color: #33394C;
+    font-weight: bold;
+}
+
+.gym_sub_heading {
+    padding-bottom: 10px;
+}
+
+.gym_sub_heading-inner {
+    padding-top: 15px;
+}
+
+.icons-footer {
+    color: rgb(48, 133, 44);
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+.gym_sub_heading:before {
+    content: "";
+    position: absolute;
+    width: 110px;
+    height: 3px;
+    border-bottom: 3px dotted rgb(48, 133, 44);
+    bottom: 0;
+}
+.icons-owl{
+    font-size: 30px;
+    color: slateblue;
+}

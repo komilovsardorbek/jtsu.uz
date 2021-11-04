@@ -1,0 +1,162 @@
+.workimages1 {
+    position: relative;
+    background-image: url(/images/standing.jpg);
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    padding: 100px 0;
+}
+.workimages1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(0, 0, 0, 0.7);
+}
+.workimages2 {
+    position: relative;
+    background-image: url(/images/digital-technology-network-data-communication-concept-abstract-background-earth-element-furnished-by-nasa_24070-630.jpg);
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: 100%;
+}
+.workimages2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+}
+.workimages8 {
+    position: relative;
+    background-image: url(/images/banner_shape.png);
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    background-position:center;
+    backdrop-filter: blur(3px);
+  }
+  .workimages8::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:  rgba(238, 237, 237, 0.438);
+  }
+  .workimages9 {
+    position: relative;
+    background-image: url(/images/bg_shap3.png);
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: contain;
+    background-position:right;
+
+  }
+  .workimages9::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .workimages {
+      position: relative;
+      background-image: url(/images/global-business_53876-94811.jpg);
+      background-repeat: no-repeat; /* Do not repeat the image */
+      background-size: cover;
+      background-position:center;
+      background-attachment: fixed;
+      background-blend-mode: darken;
+  }
+  .workimages::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgb(0 0 0 / 77%);
+  }
+  .workimages10 {
+    position: relative;
+    background-image: url(/images/bg_shap4.png);
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: contain;
+    background-position:left;
+  }
+  .workimages10::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .workimages11 {
+    position: relative;
+    background-image: url(/images/bg_shap6.png);
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: contain;
+    background-position:right;
+
+  }
+  .workimages11::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .workimages5 {
+    position: relative;
+    background-image: url(/images/dark-grunge-textured-wall-closeup-well-use-as-digital-studio-background_1258-268.jpg);
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size:cover;
+    margin-top: -9px;
+  }
+  .workimages5::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #000000c4;
+  }
+  .workimages6 {
+    position: relative;
+    background-image: url(/images/camera.jpg);
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+  }
+  .workimages6::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.397);
+  }
+
+  .footer-inner_text{
+    color: #ccc !important;
+  }
+  .footer-inner_text:hover{
+    color: var(--wa-orange-color);
+  }
+  .footer-inner_text1{
+    color: #f9f9f9;
+    font-weight: 600;
+  }
+  .wa_news_wrapper{
+    position: relative;
+    /* background-image: url(/images/bg_shap4.png); */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    /* background-size: contain; */
+    background-position:left;
+  } 
